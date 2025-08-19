@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404 Error - Page Not Found</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap" rel="stylesheet">
+  <link rel="icon" href="assets/img/icon.png">
+  <style>
+    body {
+      font-family: 'Poppins', Arial, Helvetica, sans-serif;
+      background-color: #0d0d0d;
+      color: white;
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .hero h1 {
+      font-size: 8rem;
+    }
+    .hero p {
+      font-size: 1.5rem;
+      margin: 1rem 0 2rem 0;
+    }
+    .hero a {
+      background-color: rgb(0,123,255);
+      color: white;
+      padding: 0.75rem 2rem;
+      border-radius: 9999px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+    .hero a:hover {
+      background-color: rgb(0,100,200);
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="fixed top-6 left-1/2 transform -translate-x-1/2 w-[90vw] max-w-5xl bg-white/10 backdrop-blur-xl border border-blue-500/40 px-8 py-5 rounded-full flex items-center justify-between shadow-2xl z-50">
+    <!-- Logo -->
+    <div class="flex items-center gap-3">
+      <img src="https://cdn-icons-png.flaticon.com/512/6862/6862274.png" alt="Logo" class="h-10 w-10 shadow-lg">
+      <span class="text-xl font-bold tracking-wide text-blue-400">servermore</span>
+    </div>
+    <!-- Left Links -->
+    <div class="flex items-center gap-6">
+      <a href="/minecraft/index.html" class="text-white font-medium hover:text-blue-300 transition">Minecraft</a>
+      <a href="#" class="text-white font-medium hover:text-blue-300 transition">VPS</a>
+      <a href="#" class="text-white font-medium hover:text-blue-300 transition">Dedicated</a>
+    </div>
+    <!-- Right Login Button -->
+    <div>
+      <a href="#" class="px-6 py-2 bg-gradient-to-r from-blue-700 via-blue-500 to-blue-400 rounded-full font-semibold text-white shadow-lg transition-all duration-300 hover:scale-110 hover:shadow-[0_0_20px_5px_rgba(0,123,255,0.7)] hover:z-10">Login</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <div class="hero flex flex-col items-center justify-center text-center">
+    <h1>404</h1>
+    <p>Oops! The page you are looking for does not exist.</p>
+    <a href="/">Return to Home</a>
+  </div>
+
+</body>
+</html>
